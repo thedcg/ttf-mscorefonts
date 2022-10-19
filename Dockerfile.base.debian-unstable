@@ -1,0 +1,8 @@
+################################
+# Dockerfile: thedcg/ttf-mscorefonts-debian:unstable
+
+# Base
+FROM debian:unstable
+
+RUN [ "/bin/sed", "-i", "-e", "s/ main$/ main contrib/", "/etc/apt/sources.list.d/debian.sources" ]
+

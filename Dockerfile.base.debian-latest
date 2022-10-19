@@ -1,0 +1,8 @@
+################################
+# Dockerfile: thedcg/ttf-mscorefonts-debian:latest
+
+# Base
+FROM debian:latest
+
+RUN [ "/bin/sed", "-i", "-e", "s/ main$/ main contrib/", "/etc/apt/sources.list" ]
+

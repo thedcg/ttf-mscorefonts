@@ -1,0 +1,6 @@
+################################
+# Dockerfile: thedcg/ttf-mscorefonts-ubuntu:devel
+
+# Base
+FROM ubuntu:devel
+
