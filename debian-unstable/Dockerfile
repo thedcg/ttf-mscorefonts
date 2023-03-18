@@ -1,5 +1,5 @@
 ################################
-# Dockerfile: thedcg/ttf-mscorefonts-debian:unstable
+# Dockerfile: nubes/ttf-mscorefonts-debian:unstable
 
 # Base
 FROM debian:unstable
@@ -10,7 +10,7 @@ RUN [ "/bin/sed", "-i", "-e", "s/ main$/ main contrib/", "/etc/apt/sources.list.
 # Dockerfile.common
 
 # Maintainer
-LABEL org.opencontainers.image.authors="lemures.lemniscati@gmail.com"
+LABEL org.opencontainers.image.authors="Gravitates Gaudiales <gaudiales@gmail.com>"
 
 # Update
 RUN date --iso-8601=ns\

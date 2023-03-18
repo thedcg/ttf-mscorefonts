@@ -1,5 +1,5 @@
 ################################
-# Dockerfile: thedcg/ttf-mscorefonts-debian:11
+# Dockerfile: nubes/ttf-mscorefonts-debian:11
 
 # Base
 FROM debian:11
@@ -10,7 +10,7 @@ RUN [ "/bin/sed", "-i", "-e", "s/ main$/ main contrib/", "/etc/apt/sources.list"
 # Dockerfile.common
 
 # Maintainer
-LABEL org.opencontainers.image.authors="lemures.lemniscati@gmail.com"
+LABEL org.opencontainers.image.authors="Gravitates Gaudiales <gaudiales@gmail.com>"
 
 # Update
 RUN date --iso-8601=ns\

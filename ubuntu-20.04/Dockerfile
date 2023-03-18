@@ -1,5 +1,5 @@
 ################################
-# Dockerfile: thedcg/ttf-mscorefonts-ubuntu:20.04
+# Dockerfile: nubes/ttf-mscorefonts-ubuntu:20.04
 
 # Base
 FROM ubuntu:20.04
@@ -8,7 +8,7 @@ FROM ubuntu:20.04
 # Dockerfile.common
 
 # Maintainer
-LABEL org.opencontainers.image.authors="lemures.lemniscati@gmail.com"
+LABEL org.opencontainers.image.authors="Gravitates Gaudiales <gaudiales@gmail.com>"
 
 # Update
 RUN date --iso-8601=ns\
