@@ -1,5 +1,5 @@
 ################################
-# Dockerfile: thedcg/ttf-mscorefonts-ubuntu:20.04
+# Dockerfile: nubes/ttf-mscorefonts-ubuntu:20.04
 
 # Base
 FROM ubuntu:20.04

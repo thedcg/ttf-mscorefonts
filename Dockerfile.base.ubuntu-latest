@@ -1,5 +1,5 @@
 ################################
-# Dockerfile: thedcg/ttf-mscorefonts-ubuntu:latest
+# Dockerfile: nubes/ttf-mscorefonts-ubuntu:latest
 
 # Base
 FROM ubuntu:latest

@@ -1,5 +1,5 @@
 ################################
-# Dockerfile: thedcg/ttf-mscorefonts-debian:11
+# Dockerfile: nubes/ttf-mscorefonts-debian:11
 
 # Base
 FROM debian:11

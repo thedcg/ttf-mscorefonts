@@ -1,5 +1,5 @@
 ################################
-# Dockerfile: thedcg/ttf-mscorefonts-debian:unstable
+# Dockerfile: nubes/ttf-mscorefonts-debian:unstable
 
 # Base
 FROM debian:unstable

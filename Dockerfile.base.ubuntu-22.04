@@ -1,5 +1,5 @@
 ################################
-# Dockerfile: thedcg/ttf-mscorefonts-ubuntu:22.04
+# Dockerfile: nubes/ttf-mscorefonts-ubuntu:22.04
 
 # Base
 FROM ubuntu:22.04
