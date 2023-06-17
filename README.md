@@ -8,5 +8,6 @@
 
 ## thedcg/ttf-mscorefonts-debian
 ### 11
+### 12
 ### latest
 ### unstable
