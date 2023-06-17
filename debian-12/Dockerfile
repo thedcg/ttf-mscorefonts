@@ -4,7 +4,7 @@
 # Base
 FROM debian:12
 
-RUN [ "/bin/sed", "-i", "-e", "s/ main$/ main contrib/", "/etc/apt/sources.list" ]
+RUN [ "/bin/sed", "-i", "-e", "s/ main$/ main contrib/", "/etc/apt/sources.list.d/debian.sources" ]
 
 ################################
 # Dockerfile.common
