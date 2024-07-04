@@ -1,0 +1,6 @@
+################################
+# Dockerfile: nubes/ttf-mscorefonts-ubuntu:24.04
+
+# Base
+FROM ubuntu:24.04
+
