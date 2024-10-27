@@ -1,0 +1,6 @@
+################################
+# Dockerfile: nubes/ttf-mscorefonts-ubuntu:rolling
+
+# Base
+FROM ubuntu:rolling
+
