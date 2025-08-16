@@ -1,0 +1,8 @@
+################################
+# Dockerfile: nubes/ttf-mscorefonts-debian:13
+
+# Base
+FROM debian:13
+
+RUN [ "/bin/sed", "-i", "-e", "s/ main$/ main contrib/", "/etc/apt/sources.list.d/debian.sources" ]
+
